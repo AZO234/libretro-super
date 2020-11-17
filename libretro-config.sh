@@ -314,9 +314,9 @@ case "$platform" in
 				;;
 		esac
 		export NDK_ROOT_DIR
-		CC="$NDK_ROOT_DIR/toolchains/x86_64-4.9/prebuilt/${HOST_PLATFORM}-x86_64/bin/x86_64-linux-android-gcc"
-		CXX="$NDK_ROOT_DIR/toolchains/x86_64-4.9/prebuilt/${HOST_PLATFORM}-x86_64/bin/x86_64-linux-android-g++"
-		CXX11="$NDK_ROOT_DIR/toolchains/x86_64-4.9/prebuilt/${HOST_PLATFORM}-x86_64/bin/x86_64-linux-android-g++"
+		CC="$NDK_ROOT_DIR/toolchains/llvm/prebuilt/${HOST_PLATFORM}-x86_64/bin/x86_64-linux-android-gcc"
+		CXX="$NDK_ROOT_DIR/toolchains/llvm/prebuilt/${HOST_PLATFORM}-x86_64/bin/x86_64-linux-android-g++"
+		CXX11="$NDK_ROOT_DIR/toolchains/llvm/prebuilt/${HOST_PLATFORM}-x86_64/bin/x86_64-linux-android-g++"
 		;;
 
    android-x86)
@@ -342,9 +342,9 @@ case "$platform" in
 				;;
 		esac
 		export NDK_ROOT_DIR
-		CC="$NDK_ROOT_DIR/toolchains/x86-4.8/prebuilt/${HOST_PLATFORM}-x86_64/bin/i686-linux-android-gcc"
-		CXX="$NDK_ROOT_DIR/toolchains/x86-4.8/prebuilt/${HOST_PLATFORM}-x86_64/bin/i686-linux-android-g++"
-		CXX11="$NDK_ROOT_DIR/toolchains/x86-4.8/prebuilt/${HOST_PLATFORM}-x86_64/bin/i686-linux-android-g++"
+		CC="$NDK_ROOT_DIR/toolchains/llvm/prebuilt/${HOST_PLATFORM}-x86_64/bin/i686-linux-android-gcc"
+		CXX="$NDK_ROOT_DIR/toolchains/llvm/prebuilt/${HOST_PLATFORM}-x86_64/bin/i686-linux-android-g++"
+		CXX11="$NDK_ROOT_DIR/toolchains/llvm/prebuilt/${HOST_PLATFORM}-x86_64/bin/i686-linux-android-g++"
 		;;
 
    android-armeabi)
@@ -370,9 +370,9 @@ case "$platform" in
 				;;
 		esac
 		export NDK_ROOT_DIR
-		CC="$NDK_ROOT_DIR/toolchains/arm-linux-androideabi-4.8/prebuilt/${HOST_PLATFORM}-x86_64/bin/arm-linux-androideabi-gcc"
-		CXX="$NDK_ROOT_DIR/toolchains/arm-linux-androideabi-4.8/prebuilt/${HOST_PLATFORM}-x86_64/bin/arm-linux-androideabi-g++"
-		CXX11="$NDK_ROOT_DIR/toolchains/arm-linux-androideabi-4.8/prebuilt/${HOST_PLATFORM}-x86_64/bin/arm-linux-androideabi-g++"
+		CC="$NDK_ROOT_DIR/toolchains/llvm/prebuilt/${HOST_PLATFORM}-x86_64/bin/arm-linux-androideabi-gcc"
+		CXX="$NDK_ROOT_DIR/toolchains/llvm/prebuilt/${HOST_PLATFORM}-x86_64/bin/arm-linux-androideabi-g++"
+		CXX11="$NDK_ROOT_DIR/toolchains/llvm/prebuilt/${HOST_PLATFORM}-x86_64/bin/arm-linux-androideabi-g++"
 		;;
 
    android-armeabi_v7a)
@@ -398,9 +398,9 @@ case "$platform" in
 				;;
 		esac
 		export NDK_ROOT_DIR
-		CC="$NDK_ROOT_DIR/toolchains/arm-linux-androideabi-4.8/prebuilt/${HOST_PLATFORM}-x86_64/bin/arm-linux-androideabi-gcc"
-		CXX="$NDK_ROOT_DIR/toolchains/arm-linux-androideabi-4.8/prebuilt/${HOST_PLATFORM}-x86_64/bin/arm-linux-androideabi-g++"
-		CXX11="$NDK_ROOT_DIR/toolchains/arm-linux-androideabi-4.8/prebuilt/${HOST_PLATFORM}-x86_64/bin/arm-linux-androideabi-g++"
+		CC="$NDK_ROOT_DIR/toolchains/llvm/prebuilt/${HOST_PLATFORM}-x86_64/bin/arm-linux-androideabi-gcc"
+		CXX="$NDK_ROOT_DIR/toolchains/llvm/prebuilt/${HOST_PLATFORM}-x86_64/bin/arm-linux-androideabi-g++"
+		CXX11="$NDK_ROOT_DIR/toolchains/llvm/prebuilt/${HOST_PLATFORM}-x86_64/bin/arm-linux-androideabi-g++"
 		;;
 
    android-arm64_v8a)
@@ -426,9 +426,9 @@ case "$platform" in
 				;;
 		esac
 		export NDK_ROOT_DIR
-		CC="$NDK_ROOT_DIR/toolchains/aarch64-linux-android-4.9/prebuilt/${HOST_PLATFORM}-x86_64/bin/aarch64-linux-android-gcc"
-		CXX="$NDK_ROOT_DIR/toolchains/aarch64-linux-android-4.9/prebuilt/${HOST_PLATFORM}-x86_64/bin/aarch64-linux-android-g++"
-		CXX11="$NDK_ROOT_DIR/toolchains/aarch64-linux-android-4.9/prebuilt/${HOST_PLATFORM}-x86_64/bin/aarch64-linux-android-g++"
+		CC="$NDK_ROOT_DIR/toolchains/llvm/prebuilt/${HOST_PLATFORM}-x86_64/bin/aarch64-linux-android-gcc"
+		CXX="$NDK_ROOT_DIR/toolchains/llvm/prebuilt/${HOST_PLATFORM}-x86_64/bin/aarch64-linux-android-g++"
+		CXX11="$NDK_ROOT_DIR/toolchains/llvm/prebuilt/${HOST_PLATFORM}-x86_64/bin/aarch64-linux-android-g++"
 		;;
 
    android-mips)
@@ -454,9 +454,9 @@ case "$platform" in
 				;;
 		esac
 		export NDK_ROOT_DIR
-		CC="$NDK_ROOT_DIR/toolchains/mipsel-linux-android-4.8/prebuilt/${HOST_PLATFORM}-x86_64/bin/mipsel-linux-android-gcc"
-		CXX="$NDK_ROOT_DIR/toolchains/mipsel-linux-android-4.8/prebuilt/${HOST_PLATFORM}-x86_64/bin/mipsel-linux-android-g++"
-		CXX11="$NDK_ROOT_DIR/toolchains/mipsel-linux-android-4.8/prebuilt/${HOST_PLATFORM}-x86_64/bin/mipsel-linux-android-g++"
+		CC="$NDK_ROOT_DIR/toolchains/mipsel-linux-android-4.9/prebuilt/${HOST_PLATFORM}-x86_64/bin/mipsel-linux-android-gcc"
+		CXX="$NDK_ROOT_DIR/toolchains/mipsel-linux-android-4.9/prebuilt/${HOST_PLATFORM}-x86_64/bin/mipsel-linux-android-g++"
+		CXX11="$NDK_ROOT_DIR/toolchains/mipsel-linux-android-4.9/prebuilt/${HOST_PLATFORM}-x86_64/bin/mipsel-linux-android-g++"
 		;;
 
    android-mips64)
@@ -559,11 +559,19 @@ case "$platform" in
 		DIST_DIR="ps3"
 		FORMAT_EXT=a
 		FORMAT_COMPILER_TARGET=ps3
-		FORMAT_COMPILER_TARGET_ALT=sncps3
+		FORMAT_COMPILER_TARGET_ALT=ps3
 		FORMAT=_ps3
 
-		CC="ppu-lv2-gcc.exe"
-		CXX="ppu-lv2-g++.exe"
+		CC="ppu-gcc"
+		CXX="ppu-g++"
+		AR="ppu-ar"
+		case "$UNAME_PLATFORM" in
+			win*|*mingw*|*MINGW*|*MSYS_NT*)
+				CC="ppu-lv2-gcc.exe"
+				CXX="ppu-lv2-g++.exe"
+				AR="ppu-lv2-ar.exe"
+				;;
+		esac
 		;;
 
 	ngc)
@@ -677,6 +685,18 @@ case "$platform" in
 		# Make sure that the cross bins you need are first in your path
 		CXX11="clang++ -std=c++11 -stdlib=libc++ -miphoneos-version-min=5.0"
 
+		;;
+
+	classic_armv7_a7)
+		DIST_DIR="classic_armv7_a7"
+		FORMAT_EXT=so
+		FORMAT_COMPILER_TARGET=classic_armv7_a7
+		FORMAT_COMPILER_TARGET_ALT=classic_armv7_a7
+		FORMAT=_classic_armv7_a7
+
+		CC="arm-none-eabi-gcc$BINARY_EXT"
+		CXX="arm-none-eabi-g++$BINARY_EXT"
+		AR="arm-none-eabi-ar$BINARY_EXT"
 		;;
 
 	##
@@ -898,11 +918,24 @@ case "$platform" in
    				FORMAT_COMPILER_TARGET="emscripten"
    				DIST_DIR="emscripten"
    				;;
+				*xenon*)
+   				platform=xenon
+   				FORMAT_EXT="a"
+   				FORMAT_COMPILER_TARGET="xenon"
+   				DIST_DIR="xenon"
+   				;;
 				*vita*)
 					platform=vita
 					FORMAT_EXT="a"
 					FORMAT_COMPILER_TARGET="vita"
 					DIST_DIR="vita"
+					;;
+				*sncps3*)
+					platform=ps3
+					FORMAT_EXT="a"
+					FORMAT_COMPILER_TARGET="sncps3"
+					FORMAT_COMPILER_TARGET_ALT="sncps3"
+					DIST_DIR="sncps3"
 					;;
 				*ps3*)
 					platform=ps3
@@ -910,6 +943,13 @@ case "$platform" in
 					FORMAT_COMPILER_TARGET="ps3"
 					FORMAT_COMPILER_TARGET_ALT="sncps3"
 					DIST_DIR="ps3"
+					;;
+				*psl1ght*)
+					platform=psl1ght
+					FORMAT_EXT="a"
+					FORMAT_COMPILER_TARGET="psl1ght"
+					FORMAT_COMPILER_TARGET_ALT="psl1ght"
+					DIST_DIR="psl1ght"
 					;;
 				*wii*)
 					platform=wii
@@ -922,6 +962,18 @@ case "$platform" in
 					FORMAT_EXT="a"
 					FORMAT_COMPILER_TARGET="ngc"
 					DIST_DIR="ngc"
+					;;
+				*switch*)
+					platform=switch
+					FORMAT_EXT="a"
+					FORMAT_COMPILER_TARGET="switch"
+					DIST_DIR="switch"
+					;;
+				*libnx*)
+					platform=libnx
+					FORMAT_EXT="a"
+					FORMAT_COMPILER_TARGET="libnx"
+					DIST_DIR="libnx"
 					;;
 				android-x86_64)
 					platform=android-x86_64
@@ -986,6 +1038,37 @@ case "$platform" in
                                         FORMAT_COMPILER_TARGET="unix-armv7-hardfloat-neon"
                                         DIST_DIR="unix"
                                        ;;
+				*cortex*)
+					FORMAT_EXT="so"
+					FORMAT_COMPILER_TARGET="cortex"
+					DIST_DIR="cortex"
+					;;
+				*rpi2*)
+					FORMAT_EXT="so"
+					FORMAT_COMPILER_TARGET="rpi2"
+					DIST_DIR="rpi2"
+					;;
+				*armv8-rpi3*)
+					FORMAT_EXT="so"
+					FORMAT_COMPILER_TARGET="armv8-rpi3"
+					DIST_DIR="armv8-rpi3"
+					;;
+				*aarch64-rpi3*)
+					FORMAT_EXT="so"
+					FORMAT_COMPILER_TARGET="aarch64-rpi3"
+					DIST_DIR="aarch64-rpi3"
+					;;
+				*rpi4*)
+					FORMAT_EXT="so"
+					FORMAT_COMPILER_TARGET="rpi4"
+					DIST_DIR="rpi4"
+					;;
+				classic_armv7_a7)
+					platform=classic_armv7_a7
+					FORMAT_EXT="so"
+					FORMAT_COMPILER_TARGET="classic_armv7_a7"
+					DIST_DIR="classic_armv7_a7"
+					;;
 				*)
 					BINARY_EXT=""
 					FORMAT_COMPILER_TARGET="unix"
